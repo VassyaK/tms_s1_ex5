@@ -104,6 +104,10 @@
         letter-spacing: 1.09091px;
         color: #48555B;        
     }
+    a:hover{
+        font-size: 14px; 
+        color: #00A4E5;     
+        transition: .5s;}  
 
 /* 3. */
 section.about{
@@ -231,13 +235,24 @@ section.about{
         font-family: Open Sans;
         font-style: normal;
         font-weight: bold;
+        cursor: pointer;
         font-size: 13px;
         line-height: 18px;        
         letter-spacing: 0.5px;
+        cursor: pointer;
         border: none;
         height: 40px;   
         width: 150px;
     }
+    .services__form__button:hover{
+        color: red;
+        font-size: 20px; 
+        background-color: black;
+        transition: .5s;
+        border:1px solid black;
+    }
+    
+
     .services__icon{
         padding: 0 245px 115px;
         justify-content: space-between;
@@ -294,6 +309,7 @@ section.about{
         font-size: 13px;
         line-height: 18px;      
         letter-spacing: 0.5px;
+        cursor: pointer;
         color: #FFFFFF;        
         display:block;
         margin:auto;
@@ -303,6 +319,12 @@ section.about{
         height: 40px;   
         width: 150px;
     }
+    .getInTouch__position__button:hover{
+        color: black;
+        font-size: 20px; 
+        background-color: red;
+        transition: .5s;
+        border:1px solid red;}
     /* 6. */
     .Newsletter{
         padding: 30px 375px;
@@ -324,15 +346,14 @@ section.about{
         height: 40px;
         width: 400px;
         position: relative;
+        font-size: 0;
     }
     .Newsletter__form__input{
         border: 1px solid #979797;
         height: 40px;
         width: 250px;
         padding-left: 10px;
-        position: absolute;
-        left: 625px;
-        top: 30px;
+        margin-top: 1px;
 
     }
     .Newsletter__form__button{
@@ -340,13 +361,20 @@ section.about{
         height: 40px;   
         width: 150px;
         font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 13px;
-line-height: 18px;
-letter-spacing: 0.5px;
-color: #FFFFFF;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
     }
+    .Newsletter__form__button:hover{
+        color: darkred;
+        font-size: 20px; 
+        background-color: #00A4E5;
+        transition: .5s;
+        border:1px solid red;}
 
     /* 7. */
     footer{
@@ -405,6 +433,10 @@ color: #FFFFFF;
         letter-spacing: 0.846154px;
         color: #FFFFFF;
     }
+    .links__nav__a:hover{
+        font-size: 14px; 
+        color: #00A4E5;     
+        transition: .5s;}     
     .width{
         width: 119px;        
     }
@@ -437,8 +469,13 @@ color: #FFFFFF;
         margin-top: 31px;        
     }
     .socials__icon{
-        background-color: #FFFFFF;
+        width: 12.1px;
+        height: 12.1px;        
     }
+    .socials__icon:hover{
+        width: 30px;
+        height: 30px;       
+        transition: .5s;}      
 
 
 
